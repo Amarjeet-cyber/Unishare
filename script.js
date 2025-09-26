@@ -649,7 +649,7 @@ class PageLoader {
                     animation: spin 1s linear infinite;
                     margin: 0 auto 1rem;
                 "></div>
-                <h2 style="color: var(--primary-orange); font-size: 1.5rem;">DonateShare</h2>
+                <h2 style="color: var(--primary-orange); font-size: 1.5rem;">Unishare</h2>
                 <p style="color: var(--light-gray);">Loading amazing experience...</p>
             </div>
         `;
@@ -818,3 +818,4 @@ document.addEventListener('DOMContentLoaded', () => {
   try { new RequestSystem(); } catch(e){}
   try { new PageLoader(); } catch(e){}
 });
+
